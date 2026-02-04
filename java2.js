@@ -21,3 +21,15 @@ function randomPassword() {
 }
 
 console.log(randomPassword())
+
+// tax calculator
+let tax = 7.5
+let price = 5
+function calculator() {
+    let calculated = (tax / 100) * price;
+    calculated = price + calculated;
+    return calculated;
+
+}
+
+console.log(calculator())
